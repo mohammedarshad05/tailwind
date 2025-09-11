@@ -1,6 +1,21 @@
 @import "tailwindcss";
+
+@tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
 @theme {
   --font-urban: "Urbanist", sans-serif;
+  --color-black-30: #141414;
+  --color-black-40: #1a1a1a;
+  --color-black-20: #262626;
+  --color-gray-20: #999999;
+  --color-blue-40: #703bf7;
+  --radius-58: 58px;
+}
+@layer utilities {
+  .mobile-container {
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
 }
