@@ -208,6 +208,9 @@
   .col-span-2 {
     grid-column: span 2 / span 2;
   }
+  .col-span-3 {
+    grid-column: span 3 / span 3;
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -237,6 +240,9 @@
   }
   .mt-7\.5 {
     margin-top: calc(var(--spacing) * 7.5);
+  }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
   }
   .mt-12\.5 {
     margin-top: calc(var(--spacing) * 12.5);
@@ -317,6 +323,12 @@
   .h-15 {
     height: calc(var(--spacing) * 15);
   }
+  .h-155\.5 {
+    height: calc(var(--spacing) * 155.5);
+  }
+  .h-\[191\.5px\] {
+    height: 191.5px;
+  }
   .h-\[435px\] {
     height: 435px;
   }
@@ -350,8 +362,14 @@
   .w-28\.5 {
     width: calc(var(--spacing) * 28.5);
   }
+  .w-172\.5 {
+    width: calc(var(--spacing) * 172.5);
+  }
   .w-\[113\.3px\] {
     width: 113.3px;
+  }
+  .w-\[222px\] {
+    width: 222px;
   }
   .w-\[257px\] {
     width: 257px;
@@ -362,6 +380,9 @@
   .w-\[353px\] {
     width: 353px;
   }
+  .w-\[569\.5px\] {
+    width: 569.5px;
+  }
   .w-\[610px\] {
     width: 610px;
   }
@@ -370,6 +391,9 @@
   }
   .w-max {
     width: max-content;
+  }
+  .max-w-172\.5 {
+    max-width: calc(var(--spacing) * 172.5);
   }
   .max-w-\[413px\] {
     max-width: 413px;
@@ -429,6 +453,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
+  }
   .gap-2\.5 {
     gap: calc(var(--spacing) * 2.5);
   }
@@ -464,6 +491,9 @@
   }
   .gap-x-5 {
     column-gap: calc(var(--spacing) * 5);
+  }
+  .gap-x-6 {
+    column-gap: calc(var(--spacing) * 6);
   }
   .gap-x-9\.5 {
     column-gap: calc(var(--spacing) * 9.5);
@@ -595,6 +625,9 @@
   .p-12\.5 {
     padding: calc(var(--spacing) * 12.5);
   }
+  .p-15 {
+    padding: calc(var(--spacing) * 15);
+  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -610,8 +643,14 @@
   .px-7 {
     padding-inline: calc(var(--spacing) * 7);
   }
+  .px-8\.5 {
+    padding-inline: calc(var(--spacing) * 8.5);
+  }
   .px-11\.5 {
     padding-inline: calc(var(--spacing) * 11.5);
+  }
+  .px-13\.5 {
+    padding-inline: calc(var(--spacing) * 13.5);
   }
   .py-1\.5 {
     padding-block: calc(var(--spacing) * 1.5);
@@ -709,6 +748,10 @@
   }
   .text-\[38px\] {
     font-size: 38px;
+  }
+  .leading-1\.5 {
+    --tw-leading: calc(var(--spacing) * 1.5);
+    line-height: calc(var(--spacing) * 1.5);
   }
   .leading-\[1\.5\] {
     --tw-leading: 1.5;
